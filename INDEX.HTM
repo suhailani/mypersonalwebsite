@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<head>
+<title>HOME</title>
+</head>
+<marquee><center><tittle><i><FONT COLOR="#330014", SIZE="5", FACE ="AR BONNIE">ASSALAMUALIKUM GUYS......WELCOME TO MY WEBSITE.........</i></tittle></marquee></center>
+<body>
+<hr>
+<body background="BACKGROUND/bung.jpg">
+<br>
+<center>
+<u><font color= "#4d0026", size="16", face="goudy stout">MY DIARY</font></u>
+</center>
+<hr>
+<br>
+<center>
+<img src="BACKGROUND/gambar sue.JPG"width="350"height="350">
+</center>
+<br>
+<br>
+<br>
+<center>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin:5;
+    padding:5;
+    overflow: hidden;
+    background-color:#ff3399;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: Vertical Navigation Bar;
+    padding: 20px 15px;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+    background-color:white;
+}
+
+.active {
+    background-color: #maroon;
+}
+</style>
+</head>
+<body>
+
+<ul>
+   <li><a href="biodata.htm">MY BIODATA</a></li>
+   <li><a href="experience.htm">EXPERIENCES</a></li>
+   <li><a href="education.htm">EDUCATION</a></li>
+   <li><a href="family.htm">MY FAMILY</a></li>
+   <li><a href="gallery.htm">GALLERY</a></li>
+   <li><a href="dream.htm">MY DREAM</a></li>
+</ul>
+
+<style>
+
+<br>
+
+<style>
+Div{
+     Text-align:justify;
+      Text-justify;inter-word
+}
+</style>
+<br>
+<body topmargin= "0" leftmargin= "250" rightmargin= "250">
+<p ALIGN="right">
+<FONT SIZE="1"COLOR="maroon"FACE="Arial"><B>
+&copy; SITI SUHAILANI SAEBOL.
+</B></FONT>
+</P>
+<audio src="audio/ME.mp3" autoplay>
+</br>

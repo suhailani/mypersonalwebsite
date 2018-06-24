@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
+
+<html>
+<body>
+<html>
+<BODY BACKGROUND="background/def.png" style "width="900" height="900">
+
+<center><td> 
+	<td> <a href="biodata.htm">MY BIODATA</A>|	
+	<td> <a href="experience.htm">MY EXPERIENCE</A>|	
+	<td> <a href="education.htm">EDUCATION</A>|
+	
+	<td> <a href="family.htm">MY FAMILY</A>|	
+	<td> <a href="gallery.htm">GALLERY</A>|
+
+
+	
+        <td> <a href="dream.htm">MY DREAM</A>|
+
+
+
+</center></td>
+
+
+<hr>
+<br>
+<br>
+<center>
+<u><font color= "MAROON", size="16", face="goudy stout">MY EDUCATION</font></u>
+</center>
+<hr>
+<br>
+<br>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 450px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column" style="background-color:#ff3399;">
+    <ul>
+    <li>SEKOLAH KEBANGSAAN MERCHANG TERENGGANU(SKMT)</li>
+    <br>
+    <center>
+    <img src="BACKGROUND/LENCANA.jpg"height="300"width="250">
+    </center>
+    </ul>
+  </div>
+  <div class="column" style="background-color:#ff66b3;">
+    <ul>
+    <li>SEKOLAH MENENGAH KEBANGSAAN AGAMA DURIAN GULING</li>
+    <br>
+    <center>
+    <img src="BACKGROUND/lencana1.JPG"height="300"width="250"><img src="BACKGROUND/sekolah1.jpg"height="300"width="250">
+    </center>
+    </ul>
+  </div>
+</div>
+</body>
+<br>
+<br>
+<body>
+<div class="column" style="background-color:#ff66b3;">
+    <ul>
+    <li>UNIVERSITI TEKNOLOGI MARA</li>
+    <br>
+    <center>
+    <img src="BACKGROUND/uitm logo.png"height="300"width="250"><img src="BACKGROUND/gambar 3.JPG"height="300"width="250">
+    </center>
+    </ul>
+  </div>
+<br>
+<center>
+<a href="INDEX.HTM"><img src="BACKGROUND/button.gif"width="80" height="80"</a>
+</center>

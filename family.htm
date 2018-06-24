@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
+
+<html>
+<body>
+<html>
+<BODY BACKGROUND="background/pink.gif" style "width="900" height="900">
+
+<center><td> 
+	<td> <a href="biodata.htm">MY BIODATA</A>|	
+	<td> <a href="experience.htm">MY EXPERIENCE</A>|	
+	<td> <a href="education.htm">EDUCATION</A>|
+	
+	<td> <a href="family.htm">MY FAMILY</A>|	
+	<td> <a href="gallery.htm">GALLERY</A>|
+
+
+	
+        <td> <a href="dream.htm">MY DREAM</A>|
+</center></td>
+
+
+<hr>
+<br>
+<br>
+<center>
+<u><font color= "MAROON", size="16", face="goudy stout">MY FAMILY</font></u>
+</center>
+<hr>
+<br>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 650px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ff3385;">
+    <br>
+    <br>
+    <center>
+    <img src="BACKGROUND/family.JPG"height="300"width="250"><img src="BACKGROUND/mama.jpg"height="300"width="250">
+    </center>
+    <br>
+    <center>
+    <p><b><h1>THIS IS MY FATHER AND MY MOTHER. I LOVE BOTH OF THEM VERY MUCH</b></p></h1>
+    </center>
+  </div>
+</body>
+<body>
+<div class="row">
+  <div class="column" style="background-color:#ff3385;"> 
+    <center>
+    <img src="BACKGROUND/family 2.JPG"height="300"width="250"><img src="BACKGROUND/acik.JPG"height="300"width="250"><img src="BACKGROUND/acik 2.JPG"height="300"width="250">
+    </center>
+    <br>
+    <p><h1><b>THIS IS MY SIBLINGS. I HAVE 5 SIBLINGS WHICH IS:</b></p></h1>
+    <ol>
+    <h1><li>MUHD SYAMSUL ZAINI</li>
+    <li>SYAMSUHAILY</li>
+    <li>SUZIELAWATI</li>
+    <li>SITI SUHAILANI</li>
+    <li>MUHD SYAMSUL HAFFIZHAN</li></h1>
+    </ol>
+    <br>
+  </div>
+<br>
+<center>
+<a href="INDEX.HTM"><img src="BACKGROUND/button.gif"width="80" height="80"</a>
+</center>
+<p ALIGN="right">
+<FONT SIZE="1"COLOR="maroon"FACE="Arial"><B>
+&copy; SITI SUHAILANI SAEBOL.
+</B></FONT>
+</P>
+<audio src="audio/LOVE.mp3" autoplay>

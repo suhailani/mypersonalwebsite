@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+
+<body onload="startTime()">
+
+<div id="txt"></div>
+
+</body>
+</html>
+
+<html>
+<body>
+<html>
+<BODY BACKGROUND="background/f.jpg" style "width="900" height="900">
+
+<center><td> 
+	<td> <a href="biodata.htm">MY BIODATA</A>|	
+	<td> <a href="experience.htm">MY EXPERIENCE</A>|	
+	<td> <a href="education.htm">EDUCATION</A>|
+	
+	<td> <a href="family.htm">MY FAMILY</A>|	
+	<td> <a href="gallery.htm">GALLERY</A>|
+
+
+	
+        <td> <a href="dream.htm">MY DREAM</A>|
+
+
+
+</center></td>
+
+
+<hr>
+<br>
+<br>
+<center>
+<u><font color= "MAROON", size="16", face="goudy stout">MY DREAM</font></u>
+</center>
+<hr>
+<br>
+<center> 
+<video width="500" height="400" controls>
+<source src="video/mekkah video.mp4" type="video/mp4">
+</center>
+<center> 
+<p><b><font size="5">This is my dream want to go to Macca with my family. This place are so nice and beautiful. I hope in the future, I will go there. In sha Allah</p></b></font>
+</center>
+<br>
+<center>
+<a href="INDEX.HTM"><img src="BACKGROUND/button.gif"width="80" height="80"</a>
+</center
+<p ALIGN="right">
+<FONT SIZE="1"COLOR="maroon"FACE="Arial"><B>
+&copy; SITI SUHAILANI SAEBOL.
+</B></FONT>
+</P>
